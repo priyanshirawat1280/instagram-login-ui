@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*header*/
+img {
+    border-radius: 30px;
+}
+
+
+body {
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fafafa;
+}
+/*form*/
+input{
+     color: white;
+    width: 200px;
+    height: 35px;
+    border: white;
+    border-radius: 8px ;
+    border: 1px solid gray;
+    padding: 10px;
+    font-size: smaller;
+    background-color: rgb(22, 13, 37);
+
+}
+.login-btn{
+     background-color: rgb(18, 18, 128);
+     color: white;
+     width:200px;
+     height: 30px;
+     border-radius: 45px ;
+     border:rgb(22, 13, 37) ;
+}
+.login-btn:hover{
+    background-color: #0866ff;
+}
+.Forget-btn{
+    color: white;
+     width:200px;
+     height: 30px;
+     border-radius: 45px ;
+    background-color: rgb(22, 13, 37);
+    border:rgb(22, 13, 37) ;
+    padding: 5px;
+    font-size: 10px;
+    
+
+}
+.Forget-btn:hover{
+    background-color: #676868;
+}
+.facebook-btn{
+     color: white;
+     width:200px;
+     height: 30px;
+     border-radius: 45px ;
+     padding: 5px;
+     background-color: rgb(22, 13, 37);
+      border: 1px solid gray;
+
+
+}
+.facebook-btn:hover{
+    
+    background-color: #676868;
+
+
+}
+.new-btn{
+     color: blue;
+     width:200px;
+     height: 30px;
+     border-radius: 45px ;
+     padding: 5px;
+     background-color: rgb(22, 13, 37);
+      border: 1px solid  blue;
+
+}
+.new-btn:hover{
+    
+    background-color: #676565;
+}
+h4{
+    color: white;
+}
+p{
+    color: white;
+}
+.container {
+    height: 550px;
+    width: 350px;
+    text-align: center;
+    background-color: rgb(22, 13, 37);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+footer p{
+    color: rgb(125, 122, 122);
+    margin: 5px;
+    font-size: 12px;
+} 
