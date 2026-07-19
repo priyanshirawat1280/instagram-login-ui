@@ -71,7 +71,32 @@ input{
     background-color: #676868;
 
 
+
+
 }
+.password-box{
+    position: relative;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#show-btn{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 18px;
+    z-index: 10;
+
+}
+#password{
+    padding-right: 40px;
+    width: 100%;
+}
+
 .new-btn{
      color: blue;
      width:200px;
